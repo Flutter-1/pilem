@@ -100,7 +100,7 @@ class _SearchScreenState extends State<SearchScreen> {
                       leading: Image.network(
                         movie.posterPath != '' ? 
                         'https://image.tmdb.org/t/p/w500${movie.posterPath}' :
-                        'https://via.placeholder.com/50x75.png?text=No+Image',
+                        'https://via.placeholder.com/50x75?text=No+Image',
                         height: 50,
                         width: 50,
                         fit: BoxFit.cover,
